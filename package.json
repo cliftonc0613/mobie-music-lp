@@ -1,0 +1,33 @@
+{
+  "name": "mobie-music-lp",
+  "description": "This is a package.json starter for gulp",
+  "contributors": [
+    {
+      "name": "Clifton T Canady",
+      "email": "clifton@ctwebdesignshop.com",
+      "web": "http://cliftoncanady.co"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "CTWDS",
+      "email": "hello@ctwebdesignshop.com",
+      "web": "http://ctwebdesignshop.com"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "GPL 3.0",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}
