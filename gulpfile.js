@@ -7,7 +7,8 @@ var jshint = require('gulp-jshint'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-    browserSync  = require('browser-sync').create();
+    browserSync  = require('browser-sync').create(),
+    reload = browserSync.reload;
 
 
 gulp.task('serve', function () {
@@ -24,7 +25,7 @@ gulp.task('serve', function () {
     });
 
     gulp.watch("assets/scss/*.scss", ['sass']);
-    gulp.watch("*.html").on("change", browserSync.reload({stream: true}));
+    gulp.watch("*.html").on("change", reload);
 });
 
 // Lint Task
@@ -41,7 +42,7 @@ gulp.task('sass', function() {
     return gulp.src('assets/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('assets/css'))
-        .pipe(browserSync.reload({stream: true})); // prompts a reload after compilation
+        .pipe(browserSync.stream({match: '**/*.css'}));
 
 });
 
