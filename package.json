@@ -1,27 +1,24 @@
 {
   "name": "mobie-music-lp",
-  "description": "This is a package.json starter for gulp",
-  "contributors": [
-    {
-      "name": "Clifton T Canady",
-      "email": "clifton@ctwebdesignshop.com",
-      "web": "http://cliftoncanady.co"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "CTWDS",
-      "email": "hello@ctwebdesignshop.com",
-      "web": "http://ctwebdesignshop.com"
-    }
-  ],
-  "licenses": [
-    {
-      "name": "GPL 3.0",
-      "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
-    }
-  ],
+  "version": "1.0.0",
+  "description": "The repository for mobie music landing page",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliftonc0613/mobie-music-lp.git"
+  },
+  "author": "Clifton T Canady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cliftonc0613/mobie-music-lp/issues"
+  },
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
@@ -29,5 +26,6 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.9.5"
-  }
+  },
+  "homepage": "https://github.com/cliftonc0613/mobie-music-lp#readme"
 }
