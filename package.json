@@ -1,7 +1,7 @@
 {
   "name": "mobie-music-lp",
   "version": "1.0.0",
-  "description": "The repository for mobie music landing page",
+  "description": "TA landing page that I create for my Adobe XD Design to Development Youtube Series",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {},
